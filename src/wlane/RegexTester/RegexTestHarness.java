@@ -13,9 +13,7 @@ public class RegexTestHarness {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         while (true) {
-            System.out.println("Enter your regex: ");
-            Pattern pattern =
-                    Pattern.compile(br.readLine());
+            Pattern pattern = Pattern.compile("");
 
             System.out.println("Enter input string to search: ");
             Matcher matcher =
